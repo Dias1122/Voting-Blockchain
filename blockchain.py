@@ -3,9 +3,10 @@
 
  $ source activate pycoin
 
+
  ANACONDA: Now it will change to (pycoin) at the beginning of the user. For instance, (pycoin) w11@w11: path$
 """
-# Initializing our blockchain list
+# Инициализация нашего списка блокчейнов
 
 # PYTHON imports
 from functools import reduce
