@@ -1,9 +1,9 @@
 import time
-# from time import time
+# из времени импорт времени
 from utility.printable import Printable
 
 
-# Inheritance Printable
+# Наследование Печатная версия
 class Block(Printable):
     # Constructor
     # time default: time=time()
