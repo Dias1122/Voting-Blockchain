@@ -1,7 +1,7 @@
 """
-send_from_directory = send back a file upon request, in this case HTML file
-jsonify = convert json library
-request = Receive data from POST request, it gives us access to incoming request
+send_from_directory = send back a file upon request, in this case HTML file.
+jsonify = convert json library.
+request = Receive data from POST request, it gives us access to incoming request.
 """
 import os
 from flask import Flask, jsonify, request, send_from_directory, render_template
