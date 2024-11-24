@@ -1,8 +1,8 @@
-from Crypto.PublicKey import RSA  # Generates public and private keys
-from Crypto.Signature import PKCS1_v1_5  # Special algorithm that generate signatures
+from Crypto.PublicKey import RSA  # Генерирует публичные и закрытые ключи.
+from Crypto.Signature import PKCS1_v1_5  # Специальный алгоритм, генерирующий подписи.
 from Crypto.Hash import SHA256
-import Crypto.Random  # Generates Random number
-import binascii  # Converts binary to ascii and the other way around
+import Crypto.Random  # Генерирует случайное число.
+import binascii  # Преобразует двоичный код в ASCII и наоборот.
 
 
 class Wallet:
