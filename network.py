@@ -1,6 +1,5 @@
 from ipaddress import ip_address
 
-
 class Network:
     def __init__(self, ip):
         self.ip = ip
