@@ -1,4 +1,5 @@
 ---
+
 applications:
 - name: BlockchainVotingV2
   random-route: true
