@@ -56,6 +56,7 @@ function drawVotesColumn(result) {
           var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
           chart.draw(data, options);
     };
+
     function drawVotesDonut(result) {
           var data = google.visualization.arrayToDataTable([
             ['Candidate', 'Votes'],
