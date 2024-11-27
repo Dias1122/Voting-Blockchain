@@ -17,6 +17,7 @@ class Verification:
             :last_hash: The previous block's hash which will be stored in the current block.
             :proof: The proof number we're testing.
         """
+        
         # Create a string with all the hash inputs
         guess = (str([tx.to_ordered_dict() for tx in transactions]) + str(last_hash) + str(proof)).encode()
         # Hash the string
